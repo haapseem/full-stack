@@ -1,0 +1,6 @@
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin->selain: application/json
+
+new_note:
+selain renderöi uuden lisätyn noten vanhojen kanssa
+end new_note
