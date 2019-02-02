@@ -45,11 +45,11 @@ const App = () => {
 
   return (
     <div>
-      {courses.map(x => {
-        return (
-          <Course course={x} />
-        )
-      })}
+      {
+        courses.map(x => {
+          return ( <Course course={x} /> )
+        })
+      }
     </div>
   )
 }

@@ -25,16 +25,15 @@ const Content = (props) => {
   const parts = props.parts
 
   return (
-    <div>
+    < >
       {
         parts.map(x => {
-            return (
-              <Part part={x} />
-            )
-          }
-        )
+          return (
+            <Part part={x} />
+          )
+        })
       }
-    </div>
+    </ >
   )
 }
 const Total = (props) => {
